@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="23H420" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="PaymentModel" representedClassName="PaymentModel" syncable="YES" codeGenerationType="class">
+        <attribute name="paDateE" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="paDateS" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="paStatus" optional="YES" attributeType="String"/>
+        <attribute name="paSum" optional="YES" attributeType="String"/>
+        <attribute name="paTit" optional="YES" attributeType="String"/>
+        <attribute name="paType" optional="YES" attributeType="String"/>
+        <attribute name="paVid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SchedModel" representedClassName="SchedModel" syncable="YES" codeGenerationType="class">
+        <attribute name="scCoach" optional="YES" attributeType="String"/>
+        <attribute name="scDay" optional="YES" attributeType="String"/>
+        <attribute name="scPlace" optional="YES" attributeType="String"/>
+        <attribute name="scTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="scTit" optional="YES" attributeType="String"/>
+        <attribute name="scTyp" optional="YES" attributeType="String"/>
+        <attribute name="scType" optional="YES" attributeType="String"/>
+    </entity>
+</model>
